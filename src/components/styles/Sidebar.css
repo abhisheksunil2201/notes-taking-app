@@ -1,0 +1,22 @@
+.sidebar {
+  background-color: #1a1a1a;
+  flex: 0.12;
+  height: 100vh;
+}
+.sidebar__item {
+  cursor: pointer;
+  color: #cccccc;
+  display: flex;
+  align-items: center;
+}
+.sidebar__item:hover {
+  background-color: #404040;
+}
+.sidebar__item > p {
+  margin-left: 5px;
+}
+.sidebar__item > .MuiSvgIcon-root,
+.sidebar__item > svg {
+  margin-left: 20px;
+  margin-right: 10px;
+}

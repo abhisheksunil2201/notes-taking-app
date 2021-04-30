@@ -1,0 +1,56 @@
+.newnote {
+  flex: 0.6;
+  margin-left: 20px;
+}
+.newnote #outlined-textarea {
+  font-weight: 600;
+  font-size: 24px;
+}
+.ck-content {
+  height: 70vh;
+  width: 60vw;
+}
+.newnote > .MuiButton-root {
+  margin-top: 10px;
+}
+.newnote__topbar {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.newnote__topbar > .tooltip {
+  margin-right: 25px;
+}
+.newnote__topbar > .tooltip > svg {
+  height: 25px;
+  fill: #a6a6a6;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.star > svg {
+  fill: #00a82d !important;
+}
+.newnote__topbar > .tooltip > svg:hover {
+  fill: #737373;
+}
+.tooltip {
+  width: 20px;
+  height: 22px;
+  z-index: 1;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #404040;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 5px;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  /* margin-left: -75px; */
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

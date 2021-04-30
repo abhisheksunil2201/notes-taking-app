@@ -1,0 +1,9 @@
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.note__title {
+  padding: 20px;
+}

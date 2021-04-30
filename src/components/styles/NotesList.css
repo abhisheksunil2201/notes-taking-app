@@ -1,0 +1,32 @@
+.noteslist {
+  flex: 0.2;
+  padding: 20px;
+  border-right: 1px solid #cccccc;
+}
+.noteslist__newNoteBtn {
+  width: 100%;
+  margin-bottom: 20px !important;
+}
+.noteslist__head {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+.noteslist__head > svg {
+  margin-right: 10px;
+}
+.noteslist__nocontent {
+  margin-top: 50px;
+  text-align: center;
+}
+.noteslist__newnote > .MuiButton-root {
+  color: white;
+  border-radius: 20px;
+  width: 200px;
+  background-color: #00a82d;
+  justify-content: left;
+  text-transform: none;
+}
+.noteslist__newnote > .MuiButton-root:hover {
+  background-color: #007620;
+}
